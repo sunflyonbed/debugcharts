@@ -179,6 +179,7 @@ func init() {
 	http.HandleFunc("/debug/charts/main.js", handleAsset("static/main.js"))
 	http.HandleFunc("/debug/charts/jquery-2.1.4.min.js", handleAsset("static/jquery-2.1.4.min.js"))
 	http.HandleFunc("/debug/charts/moment.min.js", handleAsset("static/moment.min.js"))
+	http.HandleFunc("/debug/charts/plotly-latest.min.js", handleAsset("static/plotly-latest.min.js"))
 
 	myProcess, _ = process.NewProcess(int32(os.Getpid()))
 

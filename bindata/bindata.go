@@ -87,7 +87,7 @@ func staticIndexHtml() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "static/index.html", size: 622, mode: os.FileMode(420), modTime: time.Unix(1517317739, 0)}
+	info := bindataFileInfo{name: "static/index.html", size: 622, mode: os.FileMode(436), modTime: time.Unix(1517322692, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -107,7 +107,7 @@ func staticJquery214MinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "static/jquery-2.1.4.min.js", size: 84345, mode: os.FileMode(420), modTime: time.Unix(1517317702, 0)}
+	info := bindataFileInfo{name: "static/jquery-2.1.4.min.js", size: 84345, mode: os.FileMode(436), modTime: time.Unix(1517319315, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -127,7 +127,7 @@ func staticMainJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "static/main.js", size: 3405, mode: os.FileMode(420), modTime: time.Unix(1517317702, 0)}
+	info := bindataFileInfo{name: "static/main.js", size: 3405, mode: os.FileMode(436), modTime: time.Unix(1517319315, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -147,7 +147,7 @@ func staticMomentMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "static/moment.min.js", size: 39836, mode: os.FileMode(420), modTime: time.Unix(1517317702, 0)}
+	info := bindataFileInfo{name: "static/moment.min.js", size: 39836, mode: os.FileMode(436), modTime: time.Unix(1517319315, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
@@ -167,7 +167,7 @@ func staticPlotlyLatestMinJs() (*asset, error) {
 		return nil, err
 	}
 
-	info := bindataFileInfo{name: "static/plotly-latest.min.js", size: 2413253, mode: os.FileMode(420), modTime: time.Unix(1517317753, 0)}
+	info := bindataFileInfo{name: "static/plotly-latest.min.js", size: 2413253, mode: os.FileMode(436), modTime: time.Unix(1517319315, 0)}
 	a := &asset{bytes: bytes, info: info}
 	return a, nil
 }
